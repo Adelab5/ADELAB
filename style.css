@@ -1,0 +1,121 @@
+:root{
+  --bgcolor: #ffffff;
+  --fgcolor: #2370a3;
+  --text: #000000;
+  --button-text: #ffffff;
+}
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--bgcolor);
+  color: var(--text);
+}
+
+main{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  display: flex;
+}
+
+button{
+  background-color: var(--button-text);
+  color: var(--text);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.hero{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.article-grid{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image{
+  width: 300px; 
+  height: 150px;
+}
+
+.contact{
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.review{
+  border: 1px solid black;
+}
+
+.username{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-left: 570px;
+}
+
+h1{
+  margin-top: 10px;
+}
+
+
+h2{
+  text-align: center;
+}
+
+.services{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  text-align: center;
+}
+
+.email{
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.message{
+height: 90px;
+margin-bottom: 20px;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.footer{
+  display: flex;
+  margin-top: 0px;
+}
+
+.social{
+  margin-top: 20px;
+  margin-right: 300px;
+}
